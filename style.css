@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(37, 62, 143, 0.82);
+    color: aliceblue;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: rgb(233, 50, 144);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar ul{
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 15px;
+}
+.navbar ul li{
+    padding-right: 30px;
+}
+
+.nedubar{
+    align-items: center;
+    padding: 15%;
+    font-size: medium;
+}    
+.sizebar{
+    font-size: 50px;
+}
